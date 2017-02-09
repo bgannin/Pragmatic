@@ -4,7 +4,7 @@
 
 ![Pragmatic Usage Demo](demo.gif)
 
-[![GitHub release](https://img.shields.io/github/release/bgannin/Pragmatic-green.svg)](https://github.com/bgannin/Pragmatic/releases)
+[![GitHub release](https://img.shields.io/github/release/bgannin/Pragmatic.svg)](https://github.com/bgannin/Pragmatic/releases)
 [![Language](https://img.shields.io/badge/language-Swift%203.0-orange.svg)](https://swift.org/)
 [![License](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/bgannin/Pragmatic/blob/master/LICENSE)
 
