@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSExtension</key>
@@ -35,6 +35,14 @@
 					<string>$(PRODUCT_BUNDLE_IDENTIFIER).SectionHeaderCommand</string>
 					<key>XCSourceEditorCommandName</key>
 					<string>Insert Section Header</string>
+				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).PragmaOnceCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).PragmaOnceCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Insert Pragma Once Guard</string>
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>

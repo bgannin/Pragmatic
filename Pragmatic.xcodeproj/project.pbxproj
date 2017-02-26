@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D24C9FDB1E61F98600FE5E92 /* PragmaOnceCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24C9FD91E61F96300FE5E92 /* PragmaOnceCommand.swift */; };
 		D24E57AF1E46F05B00D2FD86 /* SectionHeaderCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E57AB1E46EFF300D2FD86 /* SectionHeaderCommand.swift */; };
 		D24E57B01E46F05B00D2FD86 /* IgnoreEmptyCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E57AD1E46F04A00D2FD86 /* IgnoreEmptyCommand.swift */; };
 		D24E57B21E46F0A900D2FD86 /* IgnoreDeprecatedCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E57B11E46F0A900D2FD86 /* IgnoreDeprecatedCommand.swift */; };
@@ -46,6 +47,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D24C9FD31E61F8AE00FE5E92 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
+		D24C9FD41E61F8AE00FE5E92 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		D24C9FD51E61F8AE00FE5E92 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D24C9FD91E61F96300FE5E92 /* PragmaOnceCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PragmaOnceCommand.swift; sourceTree = "<group>"; };
 		D24E57AB1E46EFF300D2FD86 /* SectionHeaderCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderCommand.swift; sourceTree = "<group>"; };
 		D24E57AD1E46F04A00D2FD86 /* IgnoreEmptyCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IgnoreEmptyCommand.swift; sourceTree = "<group>"; };
 		D24E57B11E46F0A900D2FD86 /* IgnoreDeprecatedCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IgnoreDeprecatedCommand.swift; sourceTree = "<group>"; };
@@ -87,6 +92,9 @@
 		D2AAF8761E465838000EFE1F = {
 			isa = PBXGroup;
 			children = (
+				D24C9FD51E61F8AE00FE5E92 /* README.md */,
+				D24C9FD41E61F8AE00FE5E92 /* CONTRIBUTING.md */,
+				D24C9FD31E61F8AE00FE5E92 /* CODE_OF_CONDUCT.md */,
 				D2AAF8811E465838000EFE1F /* 🛠App Wrapper */,
 				D2AAF8971E465877000EFE1F /* ⚙Xcode Extension */,
 				D2AAF8981E465877000EFE1F /* Supporting Files */,
@@ -129,6 +137,7 @@
 			children = (
 				D2AAF89A1E465877000EFE1F /* PragmaticXcodeExtension.swift */,
 				D24E57BF1E48232C00D2FD86 /* CommandLogic.swift */,
+				D24C9FD91E61F96300FE5E92 /* PragmaOnceCommand.swift */,
 				D24E57AB1E46EFF300D2FD86 /* SectionHeaderCommand.swift */,
 				D24E57AD1E46F04A00D2FD86 /* IgnoreEmptyCommand.swift */,
 				D24E57B11E46F0A900D2FD86 /* IgnoreDeprecatedCommand.swift */,
@@ -269,6 +278,7 @@
 				D24E57B41E46F0D400D2FD86 /* IgnoreFormatCommand.swift in Sources */,
 				D2AAF89B1E465877000EFE1F /* PragmaticXcodeExtension.swift in Sources */,
 				D24E57BE1E47E73300D2FD86 /* IgnoreSelectorLeakCommand.swift in Sources */,
+				D24C9FDB1E61F98600FE5E92 /* PragmaOnceCommand.swift in Sources */,
 				D24E57C01E48232C00D2FD86 /* CommandLogic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
