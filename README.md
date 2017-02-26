@@ -11,11 +11,11 @@
 ## Features
 
 - ✅ Insert Section Header
+- ✅ Insert Pragma Once Guard
 - ✅ Ignore Uninitialized for Selection
 - ✅ Ignore Deprecated for Selection
 - ✅ Ignore performSelector Leaks for Selection
 - ✅ Ignore Format for Selection
-- 📎 Insert Pragma Once
 - 📎 Preferences panel
 
 ## Supported languages
