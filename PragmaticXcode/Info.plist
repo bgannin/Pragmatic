@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>4</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSExtension</key>
@@ -46,11 +46,11 @@
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).IgnoreEmptyCommand</string>
+					<string>$(PRODUCT_MODULE_NAME).CustomWarningCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).IgnoreEmptyCommand</string>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER). CustomWarningCommand</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>Compiler: Ignore Uninitialized for Selection</string>
+					<string>Insert Custom Warning</string>
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>

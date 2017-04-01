@@ -27,3 +27,18 @@ func insertIgnore(invocation: XCSourceEditorCommandInvocation, comment: String, 
 		invocation.buffer.selections.add(updatedSelection)
 	}
 }
+
+func insertEditableLine(invocation: XCSourceEditorCommandInvocation, contents: String, editPosition: Int)
+{
+	if (invocation.buffer.selections.count > 0 && invocation.buffer.lines.count > 0)
+	{
+		let selection: XCSourceTextRange = invocation.buffer.selections.firstObject as! XCSourceTextRange
+		let index = selection.start.line
+		let updatedSelection = XCSourceTextRange.init(start: XCSourceTextPosition.init(line: index, column: editPosition),
+		                                              end: XCSourceTextPosition.init(line: index, column: editPosition))
+		
+		invocation.buffer.lines.insert(contents, at: index)
+		invocation.buffer.selections.removeAllObjects()
+		invocation.buffer.selections.add(updatedSelection)
+	}
+}

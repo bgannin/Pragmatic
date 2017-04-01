@@ -14,6 +14,7 @@
 		D24E57B41E46F0D400D2FD86 /* IgnoreFormatCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E57B31E46F0D400D2FD86 /* IgnoreFormatCommand.swift */; };
 		D24E57BE1E47E73300D2FD86 /* IgnoreSelectorLeakCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E57BD1E47E73300D2FD86 /* IgnoreSelectorLeakCommand.swift */; };
 		D24E57C01E48232C00D2FD86 /* CommandLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24E57BF1E48232C00D2FD86 /* CommandLogic.swift */; };
+		D29DF2DF1E8F95D200BEA896 /* CustomWarningCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29DF2DD1E8F95C400BEA896 /* CustomWarningCommand.swift */; };
 		D2AAF8831E465838000EFE1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AAF8821E465838000EFE1F /* AppDelegate.swift */; };
 		D2AAF8851E465838000EFE1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AAF8841E465838000EFE1F /* Assets.xcassets */; };
 		D2AAF8881E465838000EFE1F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2AAF8861E465838000EFE1F /* MainMenu.xib */; };
@@ -58,6 +59,7 @@
 		D24E57BB1E47D33B00D2FD86 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
 		D24E57BD1E47E73300D2FD86 /* IgnoreSelectorLeakCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IgnoreSelectorLeakCommand.swift; sourceTree = "<group>"; };
 		D24E57BF1E48232C00D2FD86 /* CommandLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandLogic.swift; sourceTree = "<group>"; };
+		D29DF2DD1E8F95C400BEA896 /* CustomWarningCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWarningCommand.swift; sourceTree = "<group>"; };
 		D2AAF87F1E465838000EFE1F /* PragmaticXcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PragmaticXcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AAF8821E465838000EFE1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2AAF8841E465838000EFE1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				D24E57B11E46F0A900D2FD86 /* IgnoreDeprecatedCommand.swift */,
 				D24E57B31E46F0D400D2FD86 /* IgnoreFormatCommand.swift */,
 				D24E57BD1E47E73300D2FD86 /* IgnoreSelectorLeakCommand.swift */,
+				D29DF2DD1E8F95C400BEA896 /* CustomWarningCommand.swift */,
 				D2AAF89E1E465877000EFE1F /* Info.plist */,
 			);
 			name = "⚙Xcode Extension";
@@ -274,6 +277,7 @@
 			files = (
 				D24E57B21E46F0A900D2FD86 /* IgnoreDeprecatedCommand.swift in Sources */,
 				D24E57B01E46F05B00D2FD86 /* IgnoreEmptyCommand.swift in Sources */,
+				D29DF2DF1E8F95D200BEA896 /* CustomWarningCommand.swift in Sources */,
 				D24E57AF1E46F05B00D2FD86 /* SectionHeaderCommand.swift in Sources */,
 				D24E57B41E46F0D400D2FD86 /* IgnoreFormatCommand.swift in Sources */,
 				D2AAF89B1E465877000EFE1F /* PragmaticXcodeExtension.swift in Sources */,
