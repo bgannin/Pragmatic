@@ -11,6 +11,7 @@
 ## Features
 
 - ✅ Insert Section Header
+- ✅ Insert Custom Warning
 - ✅ Insert Pragma Once Guard
 - ✅ Ignore Uninitialized for Selection
 - ✅ Ignore Deprecated for Selection
