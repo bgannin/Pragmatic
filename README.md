@@ -1,6 +1,6 @@
 # Pragmatic
 
-`Pragmatic` is an Xcode 8.*x* Source Editor extension for simplifying common pragma driven tasks.
+`Pragmatic` is an Xcode Source Editor extension for simplifying common pragma driven tasks.
 
 ![Pragmatic Usage Demo](Resources/demo.gif)
 
@@ -25,10 +25,16 @@
 - C++ *(untested)*
 - C
 
+## Supported Xcode
+
+- Xcode 8.x
+- Xcode 9.x
+
 ## Supported OSes
 
 - OS X 10.11 *(El Capitan)*
 - macOS 10.12 *(Sierra)*
+- macOS 10.13 *(High Sierra)*
 
 ## Tips
 

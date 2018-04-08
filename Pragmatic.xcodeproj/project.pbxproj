@@ -70,6 +70,7 @@
 		D2AAF8991E465877000EFE1F /* PragmaticXcode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PragmaticXcode.entitlements; sourceTree = "<group>"; };
 		D2AAF89A1E465877000EFE1F /* PragmaticXcodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PragmaticXcodeExtension.swift; sourceTree = "<group>"; };
 		D2AAF89E1E465877000EFE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C72EAF207A276600237B86 /* CODEOWNERS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CODEOWNERS; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 				D24C9FD51E61F8AE00FE5E92 /* README.md */,
 				D24C9FD41E61F8AE00FE5E92 /* CONTRIBUTING.md */,
 				D24C9FD31E61F8AE00FE5E92 /* CODE_OF_CONDUCT.md */,
+				D3C72EAF207A276600237B86 /* CODEOWNERS */,
 				D2AAF8811E465838000EFE1F /* 🛠App Wrapper */,
 				D2AAF8971E465877000EFE1F /* ⚙Xcode Extension */,
 				D2AAF8981E465877000EFE1F /* Supporting Files */,
