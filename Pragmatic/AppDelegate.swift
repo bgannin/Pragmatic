@@ -23,12 +23,12 @@ class AppDelegate: NSObject, NSApplicationDelegate
 	
 	@IBAction func openGH(_ sender: Any)
 	{
-		NSWorkspace.shared().open(URL.init(string: "https://github.com/bgannin/Pragmatic")!)
+		NSWorkspace.shared.open(URL.init(string: "https://github.com/bgannin/Pragmatic")!)
 	}
 	
 	@IBAction func openWiki(_ sender: Any)
 	{
-		NSWorkspace.shared().open(URL.init(string: "https://github.com/bgannin/Pragmatic/wiki")!)
+		NSWorkspace.shared.open(URL.init(string: "https://github.com/bgannin/Pragmatic/wiki")!)
 	}
 }
 
