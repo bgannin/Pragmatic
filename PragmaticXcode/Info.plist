@@ -48,7 +48,7 @@
 					<key>XCSourceEditorCommandClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).CustomWarningCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER). CustomWarningCommand</string>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).CustomWarningCommand</string>
 					<key>XCSourceEditorCommandName</key>
 					<string>Insert Custom Warning</string>
 				</dict>
