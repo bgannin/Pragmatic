@@ -31,8 +31,8 @@
 
 ## Supported OSes
 
-- macOS 10.14 *(Big Sur)*
-- macOS 10.15 *(Monterrey)*
+- macOS 11.x *(Big Sur)*
+- macOS 12.x *(Monterrey)*
 
 ## Tips
 
