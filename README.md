@@ -5,7 +5,7 @@
 ![Pragmatic Usage Demo](Resources/demo.gif)
 
 [![GitHub release](https://img.shields.io/github/release/bgannin/Pragmatic.svg)](https://github.com/bgannin/Pragmatic/releases)
-[![Language](https://img.shields.io/badge/language-Swift%204.0-orange.svg)](https://swift.org/)
+[![Language](https://img.shields.io/badge/language-Swift%205.5-orange.svg)](https://swift.org/)
 [![License](https://img.shields.io/badge/license-MIT-red.svg)](https://github.com/bgannin/Pragmatic/blob/master/LICENSE)
 
 ## Features
@@ -27,14 +27,12 @@
 
 ## Supported Xcode
 
-- Xcode 8.x
-- Xcode 9.x
+- Xcode 13.x-
 
 ## Supported OSes
 
-- OS X 10.11 *(El Capitan)*
-- macOS 10.12 *(Sierra)*
-- macOS 10.13 *(High Sierra)*
+- macOS 10.14 *(Big Sur)*
+- macOS 10.15 *(Monterrey)*
 
 ## Tips
 
