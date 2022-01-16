@@ -200,6 +200,7 @@
 			buildConfigurationList = D2AAF88C1E465838000EFE1F /* Build configuration list for PBXNativeTarget "PragmaticXcode" */;
 			buildPhases = (
 				D2AAF87B1E465838000EFE1F /* Sources */,
+				D3BE936A2793D6DE00322A92 /* Run Script - SwiftLint */,
 				D2AAF87C1E465838000EFE1F /* Frameworks */,
 				D2AAF87D1E465838000EFE1F /* Resources */,
 				D2AAF8A51E465877000EFE1F /* Embed App Extensions */,
@@ -219,6 +220,7 @@
 			buildConfigurationList = D2AAF8A21E465877000EFE1F /* Build configuration list for PBXNativeTarget "Pragmatic" */;
 			buildPhases = (
 				D2AAF88F1E465877000EFE1F /* Sources */,
+				D3BE936B2793D70B00322A92 /* Run Script - SwiftLint */,
 				D2AAF8901E465877000EFE1F /* Frameworks */,
 				D2AAF8911E465877000EFE1F /* Resources */,
 			);
@@ -291,6 +293,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D3BE936A2793D6DE00322A92 /* Run Script - SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		D3BE936B2793D70B00322A92 /* Run Script - SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2AAF87B1E465838000EFE1F /* Sources */ = {

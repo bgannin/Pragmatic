@@ -7,28 +7,28 @@ import Cocoa
 
 @NSApplicationMain
 
-class AppDelegate: NSObject, NSApplicationDelegate
-{
+class AppDelegate: NSObject, NSApplicationDelegate {
 	@IBOutlet weak var window: NSWindow!
-	
-	func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool
-	{
-		return true
+
+	func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+		true
 	}
 
-	func applicationDidFinishLaunching(_ aNotification: Notification)
-	{
+	func applicationDidFinishLaunching(_ aNotification: Notification) {
 		window.titleVisibility = .hidden
 	}
-	
-	@IBAction func openGH(_ sender: Any)
-	{
-		NSWorkspace.shared.open(URL.init(string: "https://github.com/bgannin/Pragmatic")!)
+
+	@IBAction func openGH(_ sender: Any) {
+		guard let projectURL = URL(string: "https://github.com/bgannin/Pragmatic") else {
+			return
+		}
+		NSWorkspace.shared.open(projectURL)
 	}
-	
-	@IBAction func openWiki(_ sender: Any)
-	{
-		NSWorkspace.shared.open(URL.init(string: "https://github.com/bgannin/Pragmatic/wiki")!)
+
+	@IBAction func openWiki(_ sender: Any) {
+		guard let wikiURL = URL(string: "https://github.com/bgannin/Pragmatic/wiki") else {
+			return
+		}
+		NSWorkspace.shared.open(wikiURL)
 	}
 }
-
