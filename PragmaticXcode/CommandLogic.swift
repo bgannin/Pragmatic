@@ -3,7 +3,6 @@
 //  Copyright © 2017 Brian Ganninger. All rights reserved.
 //
 
-import Foundation
 import XcodeKit
 
 func insertIgnore(invocation: XCSourceEditorCommandInvocation, comment: String, suppressedWarning: String) {
