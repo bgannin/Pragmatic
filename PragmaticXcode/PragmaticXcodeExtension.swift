@@ -6,6 +6,5 @@
 import Foundation
 import XcodeKit
 
-class PragmaticXcodeExtension: NSObject, XCSourceEditorExtension
-{
+class PragmaticXcodeExtension: NSObject, XCSourceEditorExtension {
 }

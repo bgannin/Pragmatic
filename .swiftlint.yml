@@ -1,0 +1,24 @@
+# Created by Brian Ganninger on 1/16/22.
+# Copyright © 2022 Brian Ganninger. All rights reserved.
+
+# The complete list of rules can be found at:
+# https://realm.github.io/SwiftLint/rule-directory.html
+
+disabled_rules:
+- todo
+
+opt_in_rules:
+- anonymous_argument_in_multiline_closure
+- empty_collection_literal
+- empty_string
+- empty_count
+- flatmap_over_map_reduce
+- force_unwrapping
+- implicit_return
+- modifier_order
+- operator_usage_whitespace
+- redundant_nil_coalescing
+- trailing_closure
+- vertical_whitespace_opening_braces
+- vertical_whitespace_closing_braces
+- yoda_condition

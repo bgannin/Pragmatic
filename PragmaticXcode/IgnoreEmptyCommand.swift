@@ -6,14 +6,12 @@
 import Foundation
 import XcodeKit
 
-class IgnoreEmptyCommand: NSObject, XCSourceEditorCommand
-{
-    func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: @escaping (Error?) -> Void ) -> Void
-	{
+class IgnoreEmptyCommand: NSObject, XCSourceEditorCommand {
+    func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: @escaping (Error?) -> Void) {
 		insertIgnore(invocation: invocation,
-		             comment: "// TODO: temporarily ignoring uninitialized variables; revisit ASAP!",
-		             suppressedWarning: "-Wuninitialized")
-		
+					 comment: "// TODO: temporarily ignoring uninitialized variables; revisit ASAP!",
+					 suppressedWarning: "-Wuninitialized")
+
 		completionHandler(nil)
 	}
 }
