@@ -1,0 +1,11 @@
+//
+//  Created by Brian Ganninger on 1/14/22.
+//  Copyright © 2022 Brian Ganninger. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+PRODUCT_BUNDLE_IDENTIFIER = com.infinitenexus.PragmaticXcode
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+CODE_SIGN_ENTITLEMENTS = PragmaticXcode/PragmaticXcode.entitlements

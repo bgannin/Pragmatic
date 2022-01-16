@@ -27,12 +27,12 @@
 
 ## Supported Xcode
 
-- Xcode 13.x-
+- Xcode 13.x
 
 ## Supported OSes
 
 - macOS 11.x *(Big Sur)*
-- macOS 12.x *(Monterrey)*
+- macOS 12.x *(Monterey)*
 
 ## Tips
 

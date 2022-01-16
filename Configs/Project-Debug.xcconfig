@@ -1,0 +1,16 @@
+//
+//  Created by Brian Ganninger on 1/14/22.
+//  Copyright © 2022 Brian Ganninger. All rights reserved.
+//
+
+#include "Project-Shared"
+
+DEBUG_INFORMATION_FORMAT = dwarf
+ENABLE_TESTABILITY = YES
+GENERATE_PROFILING_CODE = YES
+
+GCC_DYNAMIC_NO_PIC = NO
+GCC_OPTIMIZATION_LEVEL = 0
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG
+SWIFT_OPTIMIZATION_LEVEL = -Onone
