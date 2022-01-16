@@ -1,0 +1,11 @@
+//
+//  Created by Brian Ganninger on 1/12/22.
+//  Copyright © 2022 Brian Ganninger. All rights reserved.
+//
+
+#include "Project-Shared"
+
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+SWIFT_OPTIMIZATION_LEVEL = -Owholemodule
+ONLY_ACTIVE_ARCH = NO
+CLANG_STATIC_ANALYZER_MODE = deep
