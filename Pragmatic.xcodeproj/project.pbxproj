@@ -21,7 +21,9 @@
 		D2AAF8961E465877000EFE1F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAF8951E465877000EFE1F /* Cocoa.framework */; };
 		D2AAF89B1E465877000EFE1F /* PragmaticXcodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AAF89A1E465877000EFE1F /* PragmaticXcodeExtension.swift */; };
 		D2AAF8A11E465877000EFE1F /* Pragmatic.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D2AAF8931E465877000EFE1F /* Pragmatic.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D35A0EEC2793BB2D00AC3E16 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24E57BB1E47D33B00D2FD86 /* XcodeKit.framework */; };
+		D3BE936D2794EA6B00322A92 /* TodoCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE936C2794EA6B00322A92 /* TodoCommand.swift */; };
+		D3D5D6EB279541A80014B836 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24E57BB1E47D33B00D2FD86 /* XcodeKit.framework */; };
+		D3D5D6EC279541A80014B836 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D24E57BB1E47D33B00D2FD86 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,17 @@
 				D2AAF8A11E465877000EFE1F /* Pragmatic.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D5D6ED279541A80014B836 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D3D5D6EC279541A80014B836 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -80,6 +93,7 @@
 		D35A0EE92792757800AC3E16 /* Project-Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Shared.xcconfig"; sourceTree = "<group>"; };
 		D35A0EEA2793432100AC3E16 /* Pragmatic-Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pragmatic-Shared.xcconfig"; sourceTree = "<group>"; };
 		D35A0EEB279343A800AC3E16 /* PragmaticXcode-Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "PragmaticXcode-Shared.xcconfig"; sourceTree = "<group>"; };
+		D3BE936C2794EA6B00322A92 /* TodoCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCommand.swift; sourceTree = "<group>"; };
 		D3C72EAF207A276600237B86 /* CODEOWNERS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CODEOWNERS; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,7 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2AAF8961E465877000EFE1F /* Cocoa.framework in Frameworks */,
-				D35A0EEC2793BB2D00AC3E16 /* XcodeKit.framework in Frameworks */,
+				D3D5D6EB279541A80014B836 /* XcodeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +169,7 @@
 				D24E57BF1E48232C00D2FD86 /* CommandLogic.swift */,
 				D24C9FD91E61F96300FE5E92 /* PragmaOnceCommand.swift */,
 				D24E57AB1E46EFF300D2FD86 /* SectionHeaderCommand.swift */,
+				D3BE936C2794EA6B00322A92 /* TodoCommand.swift */,
 				D24E57AD1E46F04A00D2FD86 /* IgnoreEmptyCommand.swift */,
 				D24E57B11E46F0A900D2FD86 /* IgnoreDeprecatedCommand.swift */,
 				D24E57B31E46F0D400D2FD86 /* IgnoreFormatCommand.swift */,
@@ -223,6 +238,7 @@
 				D3BE936B2793D70B00322A92 /* Run Script - SwiftLint */,
 				D2AAF8901E465877000EFE1F /* Frameworks */,
 				D2AAF8911E465877000EFE1F /* Resources */,
+				D3D5D6ED279541A80014B836 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,6 +367,7 @@
 				D29DF2DF1E8F95D200BEA896 /* CustomWarningCommand.swift in Sources */,
 				D24E57AF1E46F05B00D2FD86 /* SectionHeaderCommand.swift in Sources */,
 				D24E57B41E46F0D400D2FD86 /* IgnoreFormatCommand.swift in Sources */,
+				D3BE936D2794EA6B00322A92 /* TodoCommand.swift in Sources */,
 				D2AAF89B1E465877000EFE1F /* PragmaticXcodeExtension.swift in Sources */,
 				D24E57BE1E47E73300D2FD86 /* IgnoreSelectorLeakCommand.swift in Sources */,
 				D24C9FDB1E61F98600FE5E92 /* PragmaOnceCommand.swift in Sources */,

@@ -8,7 +8,7 @@ import XcodeKit
 class IgnoreDeprecatedCommand: NSObject, XCSourceEditorCommand {
 	func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: @escaping (Error?) -> Void ) {
 		insertIgnore(invocation: invocation,
-					 comment: "// TODO: temporarily ignoring deprecated API usage; revisit ASAP!",
+					 comment: "// FIXME: temporarily ignoring deprecated API usage; revisit ASAP!",
 					 suppressedWarning: "-Wdeprecated-declarations")
 
 		completionHandler(nil)
